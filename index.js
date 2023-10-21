@@ -1,5 +1,5 @@
 
-function calcuarSaldoJogador(vitorias, derrotas) {
+function calcularSaldoJogador(vitorias, derrotas) {
     let saldoJogador = vitorias - derrotas
     return saldoJogador
 }
@@ -28,7 +28,7 @@ let numeroDeVitorias = 110
 
 let numeroDeDerrotas = 80
 
-let saldoVitorias = calcuarSaldoJogador(numeroDeVitorias, numeroDeDerrotas)
+let saldoVitorias = calcularSaldoJogador(numeroDeVitorias, numeroDeDerrotas)
 
 let nivelDoJogador = nivelarJogador()
 
